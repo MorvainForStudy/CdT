@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curiosidades de Tecnologia</title>
+    <style>
+        @font-face {
+            font-family: 'idro';
+            src: url(fontes/idroid.otf) format(opentype);
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            margin: 0px;
+            padding-bottom: 0px;
+            background-color: #84e1ad;
+
+        }
+
+        header>h1 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-top: 0px;
+            padding-top: 20px;
+
+        }
+
+        nav>a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 5px;
+        }
+
+        nav>a:hover {
+            background-color: #406e54;
+        }
+
+        nav {
+            padding-bottom: 5px;
+        }
+
+        header {
+            margin-top: 0px;
+            background-image: linear-gradient(0deg, #195935, #37c878);
+            box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.274);
+        }
+
+        .nav_texto {
+            text-align: center;
+            color: white;
+        }
+
+        p.nav_texto {
+            color: #89b79d;
+        }
+
+        header>p {
+            padding-bottom: 10px;
+            color: #5a9172;
+        }
+
+        .full {
+            margin: 0px 90px 0px;
+            padding-left: 15px;
+            padding-right: 15px;
+            background-color: white;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.411);
+            text-align: left;
+        }
+
+        #full2video {
+            margin: 0px 90px 0px;
+            padding: 20px 15px 20px 15px;
+            background-color: #195935;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.411);
+            text-align: left;
+        }
+
+        #title {
+            margin-top: 0px;
+            font-family: idro;
+            color: #256342;
+        }
+
+        h2 {
+            padding-top: 20px;
+        }
+
+        .subtitle {
+            padding-top: 0px;
+            padding-left: 7px;
+            font-family: idro;
+            color: #256342;
+            background-image: linear-gradient(90deg, rgba(78, 134, 122, 0.37), white);
+        }
+
+        article>p {
+            text-indent: 20px;
+            text-align: justify;
+        }
+
+        a {
+            text-decoration: none;
+            color: #1d7243;
+        }
+
+        .links {
+            background-color: #25634259;
+        }
+
+        .links:hover {
+            text-decoration: underline;
+        }
+
+        .imagempequena {
+            text-align: center;
+        }
+
+        .video {
+            margin: 0px;
+            text-align: center;
+            height: 100%;
+            width: 100%;
+
+        }
+
+        #segundasessao {
+            background-color: #195935;
+            margin: 0px;
+        }
+
+        #ultimoTopico {
+            padding-top: 10px;
+            border-radius: 0px 0px 10px 10px;
+        }
+
+        #ultimoartigo {
+            background-color: #406e54;
+            border-radius: 7px;
+        }
+
+        article>h3 {
+            margin-top: 0px;
+            text-align: center;
+            color: white;
+        }
+
+        div#outros_topicos {
+            padding: 5px;
+            font-size: 13px;
+            text-indent: 10px;
+            background-color: #84e1ad;
+
+        }
+
+        .listas-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .listas {
+            text-align: left;
+            margin: 0;
+            /* Remove margens se necessário */
+            padding: 5px 200px 5px 20px;
+            /* Remove paddings se necessário */
+        }
+
+        footer {
+            background-color: #195935;
+            margin-bottom: 0px;
+            text-align: end;
+            padding: 0px;
+        }
+
+        footer>p {
+            color: white;
+            text-align: center;
+            font-size:8px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="nav_texto">Curiosidades de Tecnologia</h1>
+        <p class="nav_texto">Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Notícias</a>
+            <a href="#">Curiosidades</a>
+            <a href="#">Fale Conosco</a>
+        </nav>
+    </header>
+    <main>
+        <article class="full">
+            <section>
+                <h2 id="title">História do Mascote do Android</h2>
+                <article>
+                    <p>Provavelmente você sabe que o sistema operacional <a href="#">Android</a>, mantido pelo <a
+                            href="#">Google</a> é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas
+                        tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois
+                        acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
+                </article>
+                <article>
+                    <h2 class="subtitle">A primeira versão</h2>
+                    <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <a
+                            class=" links" href="#">Dan Morrill</a>. Ele conta que abriu o <a class="links"
+                            href="#">Inkscape</a> (software livre para vetorização de imagens) e criou sua própria
+                        versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não
+                        existia nenhuma solicitação da empresa para a criação de um mascote.</p>
+                    <img src="imagens/dan-droids.png" alt="imagem de varios androids" width="100%">
+                    <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os <a
+                            href="#">Dandroids</a>.</p>
+                </article>
+                <article>
+                    <h2 class="subtitle">Surge um novo mascote</h2>
+                    <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área.
+                        A ilustradora Russa Irina Blok, também funcionária do Google, ficou com a missão de representar
+                        o pequeno robô de uma maneira mais agradável.</p>
+                    <img src="imagens/irina-blok.jpg" alt="irina olhando para você" width="100%">
+                    <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais
+                        chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o
+                        Bugdroid, o novo mascote do Android.</p>
+                    <div class="imagempequena"><img src="imagens/bugdroid.png"
+                            alt="mascote android segunda a mao de um humano" width="50%"></div>
+                </article>
+            </section>
+        </article>
+        <section id="full2video">
+            <article class="video">
+                <iframe width="100%" height="250px" src="https://www.youtube.com/embed/GkK9Vq-sIKg?si=JzPx9csZhxT8yRhF"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </article>
+        </section>
+        <section class="full" id="ultimoTopico">
+            <article id="ultimoartigo">
+                <h3>[EXTRA] Quer aprender mais? </h3>
+                <div id="outros_topicos">
+                    <p>Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a
+                        um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.</p>
+                    <div class="listas-container">
+                        <ul class="listas">
+                            <li>Cupcake</li>
+                            <li>Donut</li>
+                            <li>Eclair</li>
+                            <li>Froyo</li>
+                            <li>Gingerbread</li>
+                            <li>Honeycomb</li>
+                            <li>Ice Cream Sandwich</li>
+                        </ul>
+                        <ul class="listas">
+                            <li>Jelly Bean</li>
+                            <li>KitKat</li>
+                            <li>Lolipop</li>
+                            <li>Marshmallow</li>
+                            <li>Nougat</li>
+                            <li>Oreo</li>
+                            <li>Pie</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <p>Então é isso! Espero que você tenha gostado do nosso artigo com essa curiosidade sobre o sistema
+                    Android e seu simpático mascote.</p>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Este site foi desenvolvido por <strong>morvain</strong> para o <strong>cursoemvideo</strong></p>
+    </footer>
+</body>
+
+</html>
